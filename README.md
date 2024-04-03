@@ -22,8 +22,8 @@ Sadly, the experiment using the whole dataset wasn't possible because of the lim
 Here are the graphs obtained during the training:
 
 
-|[![Densenet201Training](results-100
-/densenet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100/densenet_training_results.png)
+[![Densenet201Training](results-100
+/densenet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100)
 
 
 ### 3000 images 
