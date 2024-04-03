@@ -36,9 +36,9 @@ Here are the results for the test set:
 
 ### 3000 images 
 Densenet201:
-[![densenet_training_result](results-100/densenet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100)
+[![densenet_training_result](results-3000/densenet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-3000)
 Inception-resnet-v2:
-[![inception_training_result](results-100/inceptionresnet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100)
+[![inception_training_result](results-3000/inceptionresnet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-3000)
 
 
 ||Time|accuracy|
@@ -50,9 +50,9 @@ Inception-resnet-v2:
 ### 10 000 images
  
 Densenet201:
-[![densenet_training_result](results-100/densenet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100)
+[![densenet_training_result](results-10000/densenet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-10000)
 Inception-resnet-v2:
-[![inception_training_result](results-100/inceptionresnet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100)
+[![inception_training_result](results-10000/inceptionresnet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-10000)
 
 ||Time|accuracy|
 |---|:---:|:---:|
