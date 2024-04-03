@@ -36,7 +36,7 @@ Here are the results for the test set:
 
 ### 3000 images 
 Densenet201:
-[![densenet_training_result](results-3000/densenet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-3000)
+[![densenet_training_result](results-3000/densenet_training_results2.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-3000)
 Inception-resnet-v2:
 [![inception_training_result](results-3000/inceptionresnet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-3000)
 
@@ -50,7 +50,7 @@ Inception-resnet-v2:
 ### 10 000 images
  
 Densenet201:
-[![densenet_training_result](results-10000/densenet_training_results2.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-10000)
+[![densenet_training_result](results-10000/densenet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-10000)
 Inception-resnet-v2:
 [![inception_training_result](results-10000/inceptionresnet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-10000)
 
@@ -62,6 +62,6 @@ Inception-resnet-v2:
 
 ## Discussion
 
-As we can see on the graphs, the result of loss function is increasing back after the 6th epoch meaning that the models start to face an overfitting problem there. 
+As we can see on the graphs, the result of loss function is increasing back meaning that the models start to face an overfitting problem. 
 
 We can also see an increase of accuracy when using more images. These numbers are still lower than the ones found in the litterature but we can imagine that using the whole dataset, the accuracy will get closer. 
