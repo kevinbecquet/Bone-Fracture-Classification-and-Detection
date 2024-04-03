@@ -21,13 +21,47 @@ Sadly, the experiment using the whole dataset wasn't possible because of the lim
 ### 100 images
 Here are the graphs obtained during the training:
 
+Densenet201:
+[![densenet_training_result](results-100/densenet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100)
+Inception-resnet-v2:
+[![inception_training_result](results-100/inceptionresnet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100)
 
-[![Densenet201Training](results-100
-/densenet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100)
+Here are the results for the test set:
+
+||Time|accuracy|
+|---|:---:|:---:|
+|DenseNet201|0.5s|70%|
+|Inception ResNet v2|0.18s|60%|
 
 
 ### 3000 images 
+Densenet201:
+[![densenet_training_result](results-100/densenet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100)
+Inception-resnet-v2:
+[![inception_training_result](results-100/inceptionresnet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100)
+
+
+||Time|accuracy|
+|---|:---:|:---:|
+|DenseNet201|91s|68%|
+|Inception ResNet v2|3s|60%|
 
 
 ### 10 000 images
  
+Densenet201:
+[![densenet_training_result](results-100/densenet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100)
+Inception-resnet-v2:
+[![inception_training_result](results-100/inceptionresnet_training_results.png)](https://github.com/kevinbecquet/Bone-Fracture-Classification-and-Detection/blob/main/results-100)
+
+||Time|accuracy|
+|---|:---:|:---:|
+|DenseNet201|242s|81%|
+|Inception ResNet v2|10s|70%|
+
+
+## Discussion
+
+As we can see on the graphs, the result of loss function is increasing back after the 6th epoch meaning that the models start to face an overfitting problem there. 
+
+We can also see an increase of accuracy when using more images. These numbers are still lower than the ones found in the litterature but we can imagine that using the whole dataset, the accuracy will get closer. 
